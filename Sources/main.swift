@@ -1,3 +1,5 @@
 listPrac();
 
 monoidPrac();
+
+arrowPrac();
