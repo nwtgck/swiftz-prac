@@ -1,1 +1,3 @@
 listPrac();
+
+monoidPrac();

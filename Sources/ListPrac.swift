@@ -4,17 +4,19 @@ import struct Swiftz.List
 
 // List practice
 func listPrac(){
+    print("======== List Practice ======")
+
     //: Cycles a finite list of numbers into an infinite list.
     let finite : List<UInt> = [1, 2, 3, 4, 5]
-    print(finite)
+    print("finite:", finite)
     let infiniteCycle = finite.cycle()
-    print(infiniteCycle)
+    print("infiniteCycle:", infiniteCycle)
 
     //: Lists also support the standard map, filter, and reduce operators.
     let l : List<Int> = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
     let twoToEleven = l.map{$0 + 1} // [2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
-    print(twoToEleven)
+    print("twoToEleven:", twoToEleven)
     // let even = l.filter((==0) • (%2)) // [2, 4, 6, 8, 10]
     // let sum = l.reduce(curry(+), initial: 0) // 55
 
